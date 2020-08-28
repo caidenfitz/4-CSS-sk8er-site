@@ -1,4 +1,32 @@
-#bgjpg {
+.container {
   background-image: url ("assets/bg.jpg");
-  width: 40px;
+  display: grid;
+  grid-template-rows: 200px 50px 50px
+ 
+}
+.sk8er {
+  width: 50%;
+  position: absolute;
+  top: 50px
+
+}
+#top {
+display: flex
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div img {
+  height: auto;
+  width: 100%
+}
+section {
+  display:grid;
+  grid-template-rows: 200px 50px 100px
+ 
+}
+nav {
+  margin : 10px
 }
