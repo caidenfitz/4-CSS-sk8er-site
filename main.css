@@ -46,8 +46,10 @@ section {
 }
 .sk8er {
   margin: 300px;
-  margin-top: 75px;
+  margin-top: -60px;
   margin-bottom: 0px;
+  margin-right: 10px;
+  margin-left: 260px;
   width: 45%;
   background-position: 50% 30%;
   display: flex;
@@ -72,7 +74,6 @@ section {
   border-width: 3px;
   border-color: blue;
   border-style: solid;
-  : url("assets/top-image.png");
   background-position: 0% 0%;
 }
 section {
@@ -83,36 +84,37 @@ width: 100%;
 .sk81 {
  width: 177px;
  background-color:#a91f2c;
- padding: 5px;
+ padding: 7px;
  margin: 10px;
  margin-left: 274px;
- margin-top: -11px;
+ margin-top: -15px;
  margin-bottom: 0px;
 } 
 .sk82{
   width: 177px;
  background-color:#a91f2c;
- padding: 5px;
+ padding: 7px;
  margin: 10px;
  margin-left: -6px;
- margin-top: -11px;
+ margin-top: -15px;
  margin-bottom: 0px;
  } 
  .sk83{
   width: 177px;
  background-color:#a91f2c;
- padding: 5px;
+ padding: 7px;
  margin: 10px;
- margin-left: 274px;
- margin-top: -11px;
+ margin-left: -95px;
+ margin-top: -15px;
  margin-bottom: 0px;
  } 
  .sk84{
-  width: 177px;
+ width: 177px;
  background-color:#a91f2c;
- padding: 5px;
+ padding: 7px;
  margin: 10px;
- margin-left: 274px;
- margin-top: -11px;
+ margin-left:-186px;
+ margin-top: -15px;
  margin-bottom: 0px;
+ margin-right: 
  } 
