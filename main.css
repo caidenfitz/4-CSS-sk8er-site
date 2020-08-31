@@ -178,3 +178,56 @@ padding: 9px 0px;
   justify-content: space-around;
   padding: 8px 12px;
 }
+.end {
+  background-color: white;
+  margin: 25px 0; 
+  line-height: 150%;
+  display:flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+form {
+  display:flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border-style:none;
+}
+
+.text {
+  display:flex;
+  flex-direction:column;
+  margin: 25px;
+  font-size: 0px
+}
+.name {
+  width: 430px;
+  margin: 8px 0px;
+  padding: 7px 7px;
+}
+.text h1 {
+  font-size: 20px;
+  margin-top: -15px;
+  margin-left: -3px;
+}
+.text p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.button5 {
+  background-color: #B6262B;
+  color: white;
+  padding: 8px;
+  width: 225px;
+  margin-left: 206px;
+  margin-top: 13px;
+}
+.rectangle {
+  background-color: #B6262B;
+  position: absolute;
+  left: 174px;
+  top: 971px;
+  padding: 18px 10px;
+  font-size: 13px;
+  color: white;
+
+}
