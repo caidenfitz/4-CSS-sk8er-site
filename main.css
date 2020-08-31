@@ -110,6 +110,8 @@ padding: 9px 0px;
   grid-template-columns: 33%;
   grid-template-rows: 250px 250px;
   margin: 25px 0px;
+  Font-size: 30px;
+  color: white;
  }
 .sk8er1 {
   background-image: url("assets/sk8er-4.png");
@@ -121,6 +123,10 @@ padding: 9px 0px;
   margin-right: 6px;
   background-size: 408px 257px;
   background-position: -85px -6px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .sk8er2{
   background-image: url("assets/sk8er-3.png");
@@ -130,6 +136,10 @@ padding: 9px 0px;
   grid-row-end: 1;
   border: 5px solid #FEFEFE;
   margin: 0px 6px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .sk8er3{
   background-image: url("assets/sk8er-2.png");
@@ -141,6 +151,10 @@ padding: 9px 0px;
   margin-left: 6px;
   background-size: 735px 496px;
   background-position: -328px -5px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
  }
 .sk8er4{
   background-image: url("assets/sk8er-1.png");
@@ -153,4 +167,14 @@ padding: 9px 0px;
   margin-top: 12px;
   background-size: 724px 330px;
   background-position: 0px -72px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sk8board {
+  background-color: white;
+  display:flex;
+  justify-content: space-around;
+  padding: 8px 12px;
 }
