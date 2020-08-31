@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: sans-serif
+  font-family: sans-serif; 
 }
 .buttons {
   display:flex;
@@ -42,14 +42,10 @@ body {
 section {
   margin: 40px;
   margin-top: -60px;
-  margin-bottom: 0px;
   margin-left: 260px;
-  padding: 0px;
-  right: 0px;
-  left:0;
   width: 100%;
 }
-.sk8er {
+.photo {
   background-image: url("assets/top-image.png");
   background-repeat: no-repeat;
   background-position: 0 -102px ;
@@ -60,7 +56,6 @@ section {
   flex-direction: column;
   align-items: center;
   border: 7px solid #FBFBFB;
-  margin: 0 0px;
   height: 375px
 }
 section {
@@ -79,8 +74,6 @@ width: 100%;
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0px 0px;
-  margin: 0px 0px;
   height: 332px
 }
 .box1 {
@@ -111,4 +104,53 @@ padding: 9px 0px;
 .p3 {
   opacity: 38%;
   padding: 9px 0px;
+}
+.sk8er {
+  display:grid;
+  grid-template-columns: 33%;
+  grid-template-rows: 250px 250px;
+  margin: 25px 0px;
+ }
+.sk8er1 {
+  background-image: url("assets/sk8er-4.png");
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  border: 5px solid #FEFEFE;
+  margin-right: 6px;
+  background-size: 408px 257px;
+  background-position: -85px -6px;
+}
+.sk8er2{
+  background-image: url("assets/sk8er-3.png");
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  border: 5px solid #FEFEFE;
+  margin: 0px 6px;
+}
+.sk8er3{
+  background-image: url("assets/sk8er-2.png");
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border: 5px solid #FEFEFE;
+  margin-left: 6px;
+  background-size: 735px 496px;
+  background-position: -328px -5px;
+ }
+.sk8er4{
+  background-image: url("assets/sk8er-1.png");
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  border: 5px solid #FEFEFE;
+  margin-right: 6px;
+  margin-top: 12px;
+  background-size: 724px 330px;
+  background-position: 0px -72px;
 }
